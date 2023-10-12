@@ -1,16 +1,21 @@
-﻿namespace AdunareA2numere
+﻿namespace PareImpare
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int a;
-            int b;
-            int s;
-            a = Convert.ToInt32(Console.ReadLine());
-            b= Convert.ToInt32(Console.ReadLine());
-            s = a + b;
-            Console.WriteLine(s);
+            int x;
+            x = Convert.ToInt32(Console.ReadLine());
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("Par");
+            }
+            else
+            {
+                Console.WriteLine("Impar");
+            }
+            
         }
     }
 }
+
